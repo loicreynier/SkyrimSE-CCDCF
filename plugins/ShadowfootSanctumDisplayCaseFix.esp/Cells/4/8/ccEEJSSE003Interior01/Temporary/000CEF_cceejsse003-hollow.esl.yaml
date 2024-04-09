@@ -1,0 +1,8 @@
+MutagenObjectType: PlacedObject
+FormKey: 000CEF:cceejsse003-hollow.esl
+Base: 0C5893:Skyrim.esm
+Scale: 0.89
+LocationReference: 000D41:cceejsse003-hollow.esl
+Placement:
+  Position: 626.5417, 612.0916, 3273.6023
+  Rotation: 0, 0, 4.0142574

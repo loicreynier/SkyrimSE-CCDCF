@@ -1,0 +1,13 @@
+MutagenObjectType: PlacedObject
+FormKey: 000800:GallowsHallDisplaycaseFix.esp
+MajorRecordFlagsRaw: 1024
+VersionControl: 11319
+SkyrimMajorRecordFlags:
+- 0x400
+Base: 0E946E:Skyrim.esm
+LinkedReferences:
+- KeywordOrReference: 06D95F:Skyrim.esm
+  Reference: 000801:GallowsHallDisplaycaseFix.esp
+Placement:
+  Position: 1820, 40, -112
+  Rotation: 0, 0, 1.183197

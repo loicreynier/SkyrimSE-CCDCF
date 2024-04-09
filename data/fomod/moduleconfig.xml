@@ -1,0 +1,189 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="http://qconsulting.ca/fo3/ModConfig5.0.xsd">
+  <moduleName>Silver Hand Armored</moduleName>
+  <installSteps order="Explicit">
+    <installStep name="Select Options">
+      <optionalFileGroups order="Explicit">
+        <group name="Fixes" type="SelectAny">
+          <plugins order="Explicit">
+            <plugin name="Tundra Homestead (ESL version)">
+              <description>
+                In version 1.0.0 the plugin was not flagged as ESL. If you are updating you should
+                remove stuff from the display case before installing the ESL version. As always you
+                need to be outside the cell while installing.
+              </description>
+              <image path="fomod\tundra.jpg" />
+              <files>
+                <file source="TundraHomesteadDisplaycaseFix.esp"
+                  destination="TundraHomesteadDisplaycaseFix.esp" priority="0" />
+              </files>
+              <typeDescriptor>
+                <dependencyType>
+                  <defaultType name="NotUsable" />
+                  <patterns>
+                    <pattern>
+                      <dependencies operator="Or">
+                        <fileDependency file="cceejsse001-hstead.esm" state="Active" />
+                        <fileDependency file="cceejsse001-hstead.esm" state="Inactive" />
+                      </dependencies>
+                      <type name="Recommended" />
+                    </pattern>
+                  </patterns>
+                </dependencyType>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="Tundra Homestead (old ESP)">
+              <description>
+                In version 1.0.0 the plugin was not flagged as ESL. If you want to keep the ESP
+                version for safety reasons, choose this option.
+              </description>
+              <image path="fomod\tundra.jpg" />
+              <files>
+                <file source="TundraHomesteadDisplaycaseFix-ESP.esp"
+                  destination="TundraHomesteadDisplaycaseFix.esp" priority="0" />
+              </files>
+              <typeDescriptor>
+                <dependencyType>
+                  <defaultType name="NotUsable" />
+                  <patterns>
+                    <pattern>
+                      <dependencies operator="Or">
+                        <fileDependency file="cceejsse001-hstead.esm" state="Active" />
+                        <fileDependency file="cceejsse001-hstead.esm" state="Inactive" />
+                      </dependencies>
+                      <type name="Optional" />
+                    </pattern>
+                  </patterns>
+                </dependencyType>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="Shadow Foot Sanctum">
+              <description>
+                Flagged as ESL.
+              </description>
+              <image path="fomod\shadowfoot.jpg" />
+              <files>
+                <file source="ShadowfootSanctumDisplayCaseFix.esp"
+                  destination="ShadowfootSanctumDisplayCaseFix.esp" priority="0" />
+              </files>
+              <typeDescriptor>
+                <dependencyType>
+                  <defaultType name="NotUsable" />
+                  <patterns>
+                    <pattern>
+                      <dependencies operator="Or">
+                        <fileDependency file="cceejsse003-hollow.esl" state="Active" />
+                        <fileDependency file="cceejsse003-hollow.esl" state="Inactive" />
+                      </dependencies>
+                      <type name="Recommended" />
+                    </pattern>
+                  </patterns>
+                </dependencyType>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="Hendhraheim Hall">
+              <description>
+                Flagged as ESL.
+              </description>
+              <image path="fomod\hendraheim.jpg" />
+              <files>
+                <file source="HendraheimDisplayCaseFix.esp"
+                  destination="HendraheimDisplayCaseFix.esp" priority="0" />
+              </files>
+              <typeDescriptor>
+                <dependencyType>
+                  <defaultType name="NotUsable" />
+                  <patterns>
+                    <pattern>
+                      <dependencies operator="Or">
+                        <fileDependency file="cceejsse004-hall.esl" state="Active" />
+                        <fileDependency file="cceejsse004-hall.esl" state="Inactive" />
+                      </dependencies>
+                      <type name="Recommended" />
+                    </pattern>
+                  </patterns>
+                </dependencyType>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="Myrwatch Tower">
+              <description>
+                Flagged as ESL.
+              </description>
+              <image path="fomod\myrwatch.jpg" />
+              <files>
+                <file source="MyrwatchDisplaycaseFix.esp" destination="MyrwatchDisplaycaseFix.esp"
+                  priority="0" />
+              </files>
+              <typeDescriptor>
+                <dependencyType>
+                  <defaultType name="NotUsable" />
+                  <patterns>
+                    <pattern>
+                      <dependencies operator="Or">
+                        <fileDependency file="cceejsse002-tower.esl" state="Active" />
+                        <fileDependency file="cceejsse002-tower.esl" state="Inactive" />
+                      </dependencies>
+                      <type name="Recommended" />
+                    </pattern>
+                  </patterns>
+                </dependencyType>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="Myrwatch Tower - Editable Home Cells (Cell Bug Workaround)">
+              <description>
+                Choose this version if you are using Jelidiy's Myrwatch - Editable Home Cells (Cell
+                Bug Workaround) (https://www.nexusmods.com/skyrimspecialedition/mods/64108).
+
+                Flagged as ESL.
+              </description>
+              <image path="fomod\myrwatch.jpg" />
+              <files>
+                <file source="MyrwatchDisplaycaseFix-MyrwatchVaultFix.esp"
+                  destination="MyrwatchDisplaycaseFix.esp" priority="0" />
+              </files>
+              <typeDescriptor>
+                <dependencyType>
+                  <defaultType name="NotUsable" />
+                  <patterns>
+                    <pattern>
+                      <dependencies operator="Or">
+                        <fileDependency file="cceejsse002-tower.esl" state="Active" />
+                        <fileDependency file="cceejsse002-tower.esl" state="Inactive" />
+                        <fileDependency file="myrwatchhomefixer.esp" state="Active" />
+                      </dependencies>
+                      <type name="Recommended" />
+                    </pattern>
+                  </patterns>
+                </dependencyType>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="Gallows Hall">
+              <description>
+                Flagged as ESL.
+              </description>
+              <image path="fomod\gallows.jpg" />
+              <files>
+                <file source="GallowsHallDisplaycaseFix.esp"
+                  destination="GallowsHallDisplaycaseFix.esp" priority="0" />
+              </files>
+              <typeDescriptor>
+                <dependencyType>
+                  <defaultType name="NotUsable" />
+                  <patterns>
+                    <pattern>
+                      <dependencies operator="Or">
+                        <fileDependency file="ccrmssse001-necrohouse.esl" state="Active" />
+                        <fileDependency file="ccrmssse001-necrohouse.esl" state="Inactive" />
+                      </dependencies>
+                      <type name="Recommended" />
+                    </pattern>
+                  </patterns>
+                </dependencyType>
+              </typeDescriptor>
+            </plugin>
+          </plugins>
+        </group>
+      </optionalFileGroups>
+    </installStep>
+  </installSteps>
+</config>

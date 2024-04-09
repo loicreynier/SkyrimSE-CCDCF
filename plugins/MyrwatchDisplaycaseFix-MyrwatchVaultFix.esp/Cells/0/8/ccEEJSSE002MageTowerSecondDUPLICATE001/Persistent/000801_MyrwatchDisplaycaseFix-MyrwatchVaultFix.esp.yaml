@@ -1,0 +1,12 @@
+MutagenObjectType: PlacedObject
+FormKey: 000801:MyrwatchDisplaycaseFix-MyrwatchVaultFix.esp
+MajorRecordFlagsRaw: 1024
+SkyrimMajorRecordFlags:
+- 0x400
+Base: 0E946E:Skyrim.esm
+LinkedReferences:
+- KeywordOrReference: 06D95F:Skyrim.esm
+  Reference: 000800:MyrwatchDisplaycaseFix-MyrwatchVaultFix.esp
+Placement:
+  Position: -5272.0933, -725.63477, 1597.9725
+  Rotation: 0, 0, 2.6179938

@@ -1,0 +1,22 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.18.0
+ModKey: MyrwatchDisplaycaseFix-MyrwatchVaultFix.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Flags:
+  - Light
+  Stats:
+    Version: 1.7
+    NumRecords: 10
+    NextFormID: 2052
+  Author: Lochrey
+  Description: Make Myrwatch Tower's display cases usable
+  MasterReferences:
+  - Master: Skyrim.esm
+    FileSize: 0
+  - Master: cceejsse002-tower.esl
+    FileSize: 0
+  - Master: myrwatchhomefixer.esp
+    FileSize: 0
+  INTV: 1

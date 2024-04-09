@@ -1,0 +1,46 @@
+FormKey: 002F98:Update.esm
+EditorID: ccEEJSSE003Interior01
+Version2: 1
+Name:
+  TargetLanguage: English
+  Value: Shadowfoot Sanctum
+Flags:
+- IsInteriorCell
+- HasWater
+- CantTravelFromHere
+Lighting:
+  AmbientColor: '#00202621'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#00172116'
+  FogFar: 4500
+  FogPower: 0.6
+  AmbientColors:
+    DirectionalXPlus: '#002C2418'
+    DirectionalXMinus: '#00232415'
+    DirectionalYPlus: '#00282517'
+    DirectionalYMinus: '#00282217'
+    DirectionalZPlus: '#0013110A'
+    DirectionalZMinus: '#003C3623'
+    Specular: '#00172116'
+    Scale: 1
+  FogFarColor: '#00172116'
+  FogMax: 1
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - ClipDistance
+  - LightFadeDistances
+LightingTemplate: 05C735:Skyrim.esm
+WaterHeight: 0
+Location: 000D41:cceejsse003-hollow.esl
+AcousticSpace: 108E60:Skyrim.esm
+EncounterZone: 0F90B1:Skyrim.esm
+ImageSpace: 0A2687:Skyrim.esm
+Timestamp: 10828
+PersistentTimestamp: 10828
+PersistentUnknownGroupData: 1
+TemporaryTimestamp: 10828
+TemporaryUnknownGroupData: 1

@@ -1,0 +1,42 @@
+FormKey: 000B06:cceejsse001-hstead.esm
+EditorID: 0EEJSSE001HouseBasement
+Version2: 1
+Name:
+  TargetLanguage: English
+  Value: Tundra Homestead, Cellar
+Flags:
+- IsInteriorCell
+- ShowSky
+Lighting:
+  AmbientColor: '#008C8379'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#00000000'
+  FogFar: 6300
+  FogClipDistance: 7000
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#00645043'
+    DirectionalXMinus: '#0051503D'
+    DirectionalYPlus: '#005B5340'
+    DirectionalYMinus: '#005B4C40'
+    DirectionalZPlus: '#002B261D'
+    DirectionalZMinus: '#008A7963'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#00000000'
+  FogMax: 1
+  Inherits:
+  - DirectionalColor
+  - FogColor
+LightingTemplate: 0660A3:Skyrim.esm
+WaterHeight: 0
+Location: 000F1E:cceejsse001-hstead.esm
+SkyAndWeatherFromRegion: 070408:Skyrim.esm
+AcousticSpace: 0C5D0A:Skyrim.esm
+EncounterZone: 0F90B1:Skyrim.esm
+Music: 06D542:Skyrim.esm
+ImageSpace: 036ED2:Skyrim.esm
+Timestamp: 10643
+PersistentTimestamp: 10643
+TemporaryTimestamp: 10643
+TemporaryUnknownGroupData: 1

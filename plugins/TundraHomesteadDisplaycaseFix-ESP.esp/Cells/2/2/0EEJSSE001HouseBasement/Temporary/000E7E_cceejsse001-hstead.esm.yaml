@@ -1,0 +1,7 @@
+MutagenObjectType: PlacedObject
+FormKey: 000E7E:cceejsse001-hstead.esm
+Base: 0C5891:Skyrim.esm
+LocationReference: 000F1E:cceejsse001-hstead.esm
+Placement:
+  Position: -2117.1958, -2353.0598, -173.6981
+  Rotation: 0, -0, 2.0707965

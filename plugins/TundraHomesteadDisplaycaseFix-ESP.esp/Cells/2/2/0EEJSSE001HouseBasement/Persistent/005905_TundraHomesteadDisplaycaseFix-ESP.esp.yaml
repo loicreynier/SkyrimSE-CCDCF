@@ -1,0 +1,13 @@
+MutagenObjectType: PlacedObject
+FormKey: 005905:TundraHomesteadDisplaycaseFix-ESP.esp
+MajorRecordFlagsRaw: 1024
+VersionControl: 10643
+SkyrimMajorRecordFlags:
+- 0x400
+Base: 0E946E:Skyrim.esm
+LinkedReferences:
+- KeywordOrReference: 06D95F:Skyrim.esm
+  Reference: 005904:TundraHomesteadDisplaycaseFix-ESP.esp
+Placement:
+  Position: -2117.1958, -2353.0598, -173.6981
+  Rotation: 0, 0, 2.0707965

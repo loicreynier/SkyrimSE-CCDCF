@@ -1,0 +1,6 @@
+MutagenObjectType: PlacedObject
+FormKey: 000804:HendraheimDisplayCaseFix.esp
+Base: 0C5891:Skyrim.esm
+Placement:
+  Position: 5774.0815, 1565.0537, 6697.0205
+  Rotation: 0, -0, 1.3708007

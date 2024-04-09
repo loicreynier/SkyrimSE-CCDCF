@@ -1,0 +1,12 @@
+MutagenObjectType: PlacedObject
+FormKey: 000803:HendraheimDisplayCaseFix.esp
+MajorRecordFlagsRaw: 1024
+SkyrimMajorRecordFlags:
+- 0x400
+Base: 0D5081:Skyrim.esm
+LinkedReferences:
+- KeywordOrReference: 06D95E:Skyrim.esm
+  Reference: 000802:HendraheimDisplayCaseFix.esp
+Placement:
+  Position: 5574.695, 1233.5586, 6741.3633
+  Rotation: 0, 0, 2.2707973

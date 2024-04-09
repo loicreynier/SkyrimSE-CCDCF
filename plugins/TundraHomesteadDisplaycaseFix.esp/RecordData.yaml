@@ -1,0 +1,20 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.18.0
+ModKey: TundraHomesteadDisplaycaseFix.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Flags:
+  - Light
+  Stats:
+    Version: 1.7
+    NumRecords: 17
+    NextFormID: 2056
+  Author: Lochrey
+  Description: Make Tundra Homestead's display cases usable
+  MasterReferences:
+  - Master: Skyrim.esm
+    FileSize: 0
+  - Master: cceejsse001-hstead.esm
+    FileSize: 0
+  INTV: 1

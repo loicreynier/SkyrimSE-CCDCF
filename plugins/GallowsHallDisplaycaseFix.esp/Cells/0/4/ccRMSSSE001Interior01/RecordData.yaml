@@ -1,0 +1,41 @@
+FormKey: 002FD0:Update.esm
+EditorID: ccRMSSSE001Interior01
+Version2: 1
+Name:
+  TargetLanguage: English
+  Value: Gallows Hall
+Flags:
+- IsInteriorCell
+- HasWater
+Lighting:
+  AmbientColor: '#00514837'
+  DirectionalColor: '#00394A4F'
+  FogNearColor: '#003C645F'
+  FogFar: 6000
+  DirectionalFade: 1
+  FogPower: 0.8
+  AmbientColors:
+    DirectionalXPlus: '#00453727'
+    DirectionalXMinus: '#00393824'
+    DirectionalYPlus: '#00403826'
+    DirectionalYMinus: '#003E3324'
+    DirectionalZPlus: '#00211D12'
+    DirectionalZMinus: '#00675B3F'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#003A5965'
+  FogMax: 0.8
+  Inherits:
+  - DirectionalRotation
+  - DirectionalFade
+  - ClipDistance
+LightingTemplate: 06909B:Skyrim.esm
+WaterHeight: 0
+Location: 0009B1:ccrmssse001-necrohouse.esl
+AcousticSpace: 0C5B6D:Skyrim.esm
+EncounterZone: 000A2D:ccrmssse001-necrohouse.esl
+Music: 00EEB9:Dawnguard.esm
+ImageSpace: 0A2687:Skyrim.esm
+Timestamp: 11319
+PersistentTimestamp: 11319
+PersistentUnknownGroupData: 1

@@ -1,0 +1,7 @@
+MutagenObjectType: PlacedObject
+FormKey: 000ECC:cceejsse001-hstead.esm
+Base: 000811:cceejsse001-hstead.esm
+LocationReference: 000F1E:cceejsse001-hstead.esm
+Placement:
+  Position: -2045.1958, -2389.0598, -147.0148
+  Rotation: 0, -0, 5.212389
