@@ -57,6 +57,7 @@
           commitizen.enable = true;
           deadnix.enable = true;
           editorconfig-checker.enable = true;
+          markdownlint.enable = true;
           prettier.enable = true;
           statix.enable = true;
           typos.enable = true;
