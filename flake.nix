@@ -45,6 +45,11 @@
       pre-commit-check = pre-commit-hooks.lib.${system}.run {
         src = ./.;
 
+        excludes = [
+          ''^flake\.lock$''
+          ''^plugins/.*\.yaml$''
+        ];
+
         hooks = {
           fomod-validator = {
             enable = true;
